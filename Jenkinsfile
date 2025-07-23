@@ -12,7 +12,7 @@ pipeline {
          stage('Build the image using docker') {
             steps {
                 script {
-                    dockerImage = docker.build("${registryUrl}/${imageName}", "-f Dockerfile .")
+                    dockerImage = docker.build("${registryUrl}/${imageName}", "-f src/Dockerfile .")
                 }
              }
         }
