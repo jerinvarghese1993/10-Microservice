@@ -5,7 +5,7 @@ pipeline {
         registryName = 'jangoregistry'
         registryUrl = 'jangoregistry.azurecr.io'
         registryCredentialId = 'c11253f0-6a37-453d-ad1a-8481993d8f3d'
-        ImageName = 'adservice'
+        imageName = 'adservice'
     }
 
     stages {
